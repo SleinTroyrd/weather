@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Страничка</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    </head>
+    <body> 
+        <header>
+            <div class="header__wraper">
+                <div class="logo">
+                    <div class="wraper__logo">
+                        <img src="logo.png" alt="">
+                    </div>
+                    <p>WeatherApp</p>
+                </div>
+                <div class="search">
+                    <input class ="search__sity" type="text">
+                    <button class="button__search"><img src="surch.png" alt=""></button>
+                </div> 
+                <div class="units">
+                    <button class="button__units">°C</button>
+                </div>
+            </div>
+        </header>
+        <section>
+            <h1 class="error">Nothing found</h1>
+            <div class="weather__wraper">
+                <div class="now__weather">
+                    <h1 class="sity"></h1>
+                    <span class="date"></span>
+                    <span class="weather"></span>
+                </div>
+                <div class="weather__forecast">
+                    <div>
+                        <span class="timeAfterThreeOclock"></span>
+                        <div class="imgAfterThreeOclock"></div>
+                        <span class="tempAfterThreeOclock"></span>
+                    </div>
+                    <div>
+                        <span class="timeAfterSixOclock"></span>
+                        <div class="imgAfterSixOclock"></div>
+                        <span class="tempAfterSixOclock"></span>
+                    </div>
+                    <div>
+                        <span class="timeAfterNineOclock"></span>
+                        <div class="imgAfterNineOclock"></div>
+                        <span class="tempAfterNineOclock"></span>
+                    </div>
+                    <div>
+                        <span class="timeAfterTwelveOclock"></span>
+                        <div class="imgAfterTwelveOclock"></div>
+                        <span class="tempAfterTwelveOclock"></span>
+                    </div>
+                </div>   
+            </div>
+        </section>
+        <section class="info">
+            <div class="info__wraper">
+                <div class="">
+                    <span>Temperature feels like </span>
+                    <span class="temperatureFeelsLike"></span>
+                </div>
+                <div class="">
+                    <span>Humidity</span>
+                    <span class="Humidity"></span>
+                </div>
+                <div class="">
+                    <span>Description</span>
+                    <span class="description"></span>
+                </div>
+                <div class="">
+                    <span>Visiblity</span>
+                    <span class="visibility"></span>
+                </div>
+                <div class="">
+                    <span>Pressure</span>
+                    <span class="pressure"></span>
+                </div>
+            </div>
+        </section>
+        <section></section>
+
+
+       <script src="js.js"></script> 
+    </body>
+</html>

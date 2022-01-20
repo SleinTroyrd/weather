@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+a {
+    color:#000;
+}
+
+p {
+    color: #fff;
+}
+.error{
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+}
+
+header{
+    width: 100%;  
+    background:#343A40;
+}
+
+.header__wraper {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wraper__logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo > p {
+    font-size: 2rem;
+}
+
+input{
+    width: 60rem;
+    height: 4rem;
+    border: 0.1rem solid #ffff;
+    border-radius:1rem 0 0 1rem;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+}
+
+.button__search{
+    width: 7rem;
+    height: 4rem;
+    background:#EB6F4C;
+    border: 0.1rem solid #EB6F4C;
+    border-radius: 0 1rem 1rem 0;
+}
+
+.units > button{
+    width: 17rem;
+    height: 4rem;
+}
+
+
+.now__weather > span{
+    display: block;
+}
+
+.sity{
+    font-size: 3.2rem;
+}
+
+.date{
+    font-size: 2rem;
+    padding: 1rem 0 1rem 0;
+}
+
+.weather{
+    font-size: 9.6rem;
+}
+
+.info{
+   background:#343A40; 
+}
+
+.info__wraper{
+    max-width: 150rem;
+    margin: 0 auto;
+    padding: 6rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2.4rem;
+    color: #fff;
+}
+
+.info__wraper > div >span{
+    display: block;
+    justify-content: space-between;  
+}
+
+.weather__wraper{
+    max-width: 150rem;
+    margin: 0 auto;
+    padding: 10rem 0 10rem 0;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.weather__forecast{
+    display: flex;   
+}
+
+.weather__forecast > div{
+    padding: 0 10rem 0 10rem;
+}
+
+.weather__forecast > div >span{
+    display: block; 
+    display: flex;   
+    justify-content: center; 
+}
+
+.timeAfterThreeOclock, .timeAfterSixOclock, .timeAfterNineOclock,.timeAfterTwelveOclock{
+    font-size: 3.2rem;
+}
+
+.tempAfterThreeOclock, .tempAfterSixOclock, .tempAfterNineOclock, .tempAfterTwelveOclock{
+    font-size: 3.2rem;
+}
+
+
+
+
+
