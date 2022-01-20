@@ -32,7 +32,7 @@ var day;
 var units = "metric";
 const UnitsOfMeasurement = {
     c : true,
-    f : false,
+    f : false
 }
 
 if (nowDay.getDay() == 1){
@@ -80,7 +80,7 @@ buttonUnits.addEventListener('click', function() {
 
 
 function tempNow (searchSity) {
-fetch(`http://api.openweathermap.org/data/2.5/weather?q=${searchSity}&units=${units}&appid=6ab28fd1b2cf7e3c374d1c2c869e67af`)
+fetch(`https://api.openweathermap.org/data/2.5/weather?q=${searchSity}&units=${units}&appid=6ab28fd1b2cf7e3c374d1c2c869e67af`)
 .then(function(resp) { return resp.json() })
 .then(function(data) {
     if (data.name == undefined){
@@ -112,7 +112,7 @@ fetch(`http://api.openweathermap.org/data/2.5/weather?q=${searchSity}&units=${un
 }
 
 function tempFuture (searchSity) {
-fetch(`http://api.openweathermap.org/data/2.5/forecast?q=${searchSity}&units=${units}&appid=6ab28fd1b2cf7e3c374d1c2c869e67af&lang=ru`)
+fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${searchSity}&units=${units}&appid=6ab28fd1b2cf7e3c374d1c2c869e67af&lang=ru`)
 .then(function(resp) { return resp.json() })
 .then(function(data) {
     if (units == "metric"){
