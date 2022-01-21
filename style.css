@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 html{
@@ -64,10 +65,10 @@ input{
 }
 
 .units > button{
-    width: 17rem;
+    width: 15rem;
     height: 4rem;
+    font-size: 2rem;
 }
-
 
 .now__weather > span{
     display: block;
@@ -91,12 +92,13 @@ input{
 }
 
 .info__wraper{
+    font-weight: 100;
     max-width: 150rem;
     margin: 0 auto;
     padding: 6rem;
     display: flex;
     justify-content: space-between;
-    font-size: 2.4rem;
+    font-size: 2rem;
     color: #fff;
 }
 
@@ -135,7 +137,9 @@ input{
     font-size: 3.2rem;
 }
 
-
-
+.temperatureFeelsLike, .humidity, .visibility, .pressure, .description{
+    font-size: 4.2rem;
+    font-weight: 550;
+}
 
 
